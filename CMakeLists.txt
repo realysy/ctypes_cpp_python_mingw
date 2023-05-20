@@ -13,10 +13,10 @@ set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/lib")
 
 # a.编译可执行文件
-# add_executable(test ${PROJECT_SOURCE_DIR}/src/test.cpp)               # 编译时将输出一个可执行文件：json_test
+# add_executable(test ${PROJECT_SOURCE_DIR}/src/test.cpp)               # 编译时将输出一个可执行文件：test
 
 # b.编译库
-add_library(test SHARED ${PROJECT_SOURCE_DIR}/src/test.cpp)             # 编译时将输出一个STATIC/SHARED库：jsoncpp
+add_library(test SHARED ${PROJECT_SOURCE_DIR}/src/test.cpp)             # 编译时将输出一个STATIC/SHARED库：test
 
 
 # 告诉链接器在哪里查找库
