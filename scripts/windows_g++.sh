@@ -4,9 +4,9 @@ BUILD_ABI=build_x64
 
 cd ../
 
-# rm -rf $BUILD_ABI && mkdir $BUILD_ABI
+rm -rf $BUILD_ABI && mkdir $BUILD_ABI
 cd $BUILD_ABI
-make clean
+# make clean
 
 # 生成Makefile
 cmake -G "Unix Makefiles" \
